@@ -7,6 +7,10 @@
   font-family: arial;
 }
 
+body {
+  padding: 20px;
+}
+
 .todo-container {
   max-width: 400px;
   margin: 50px auto;
@@ -91,7 +95,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  background-image: url('images/delete.svg');
+  background-image: url('../images/delete.svg');
   background-size: 28px;
   background-repeat: no-repeat;
   height: 30px;
